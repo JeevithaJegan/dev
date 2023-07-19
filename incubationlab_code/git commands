@@ -1,0 +1,59 @@
+git command:
+git init
+    2  git add README.md
+    3  git add incubationlab_code
+    4  git add incubationlab_code/
+    5  git add incubationlab_code/
+    6  cd
+    7  cd..
+    8  git init
+    9  git add incubationlab_code/
+   10  git status
+   11  git add incubationlab_code/
+   12  git commit -m "Initial commit"
+   13  git remote add origin git@github.com:JeevithaJegan/dev.git
+   14  git push -u origin main
+   15  git push -u origin master
+   16  git branch -M main
+   17  git remote add origin git@github.com:JeevithaJegan/dev.git
+   18  git push -u origin main
+   19  clear
+   20  exit
+   21  git remove -v
+   22  git --help
+   23  git reset
+   24  git remote -v
+   25  git remote remove origin
+   26  git remote -v
+   27  git init
+   28  git remote add origin git@github.com:JeevithaJegan/dev.git
+   29  git add .
+   30  git add .
+   31  git commit -m "Initial Files"
+   32  git push -u origin dev
+   33  git push -u origin main
+   34  git push
+   35  git branch -M main
+   36  git remote add origin git@github.com:JeevithaJegan/dev.git
+   37  git push -u origin main
+   38  ls ~/.ssh
+   39  git remote add origin https://github.com/JeevithaJegan/dev.git
+   40  git push -u origin main
+   41  ssh-keygen -t rsa -b 4096 -C "jeevitha.raja@tigeranalytics.com"
+   42  ssh -T git@github.com
+   43  ssh -T git@github.com
+   44  eval "$(ssh-agent -s)"
+   45  ssh-agent -s
+   46  eval "$(ssh-agent -s)"
+   47  ssh-agent -s
+   48  ssh-add "C:\Users\jeevitha.raja\Documents\inc_work\gitssh_key.pub"
+   49  ssh-add C:\Users\jeevitha.raja\Documents\inc_work\gitssh_key
+   50  ssh-add "C:\Users\jeevitha.raja\Documents\inc_work\gitssh_key"
+   51  ssh -T git@github.com
+   52  git push -u origin main
+   53  git --version
+   54  git status
+   55  git add .
+   56  git commit -m "spark job Files changes"
+   57  git push
+   58  history
