@@ -65,7 +65,7 @@ viewrship_file_path = 'viewrship_records.parquet'
 pq.write_table(actives_table, actives_file_path)
 pq.write_table(viewrship_table, viewrship_file_path)
 
-print("Actives Records:")
+print("Actives Records dis:")
 for record in actives_records:
     print(record)
 
