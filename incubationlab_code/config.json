@@ -1,0 +1,37 @@
+{
+  "paths": {
+    "landing_zone_path": {
+      "actives": "s3://jeevithalandingzonebucket/rawzone/actives_records.parquet",
+      "viewership": "s3://jeevithalandingzonebucket/rawzone/viewrship_records.parquet"
+    },
+    "raw_zone_path": {
+      "actives": "s3://jeevitharawzonebucket/raw_data/actives_records",
+      "viewership": "s3://jeevitharawzonebucket/raw_data/viewrship_records"
+    },
+    "staging_zone_path": {
+      "actives": "s3://jeevithastagingzonebucket/staging_data/actives",
+      "viewership": "s3://jeevithastagingzonebucket/staging_data/viewership"
+    }
+  },
+  "transformations": {
+    "actives": {
+      "mask_fields": ["advertising_id", "user_id"],
+      "cast_fields": {
+        "timestamp": "timestamp",
+        "user_latitude": "double",
+        "user_longitude": "double",
+        "casting_type": "double"
+      }
+    },
+    "viewership": {
+      "mask_fields": ["advertising_id"],
+      "cast_fields": {
+        "duration": "integer",
+        "record_timestamp": "timestamp",
+        "user_lat": "double",
+        "user_long": "double",
+        "casting_type": "double"
+      }
+    }
+  }
+}
