@@ -124,7 +124,7 @@ class SparkJob:
                 raise
             else:
                 merge_builder.execute()
-                print('Merge operation executed successfully!')
+                print('Merge operation executed successfully and displayed!')
             # Overwrite the Delta table with the merged records
             delta_table.write.format("delta").mode("overwrite").save(lookup_location)  # Fixed variable name
 
